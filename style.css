@@ -1,0 +1,163 @@
+/* Estilo global */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+  }
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  a:hover {
+    color: #555;
+    
+  }
+  
+  /* Cabeçalho */
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 80px;
+  }
+  
+  
+  header h1 {
+    font-size: 2em;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav li {
+    margin-left: 20px;
+    
+  }
+
+
+  /* Sobre mim */
+  section#sobre-mim {
+    padding: 50px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+  
+  section#sobre-mim img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  section#sobre-mim h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  /* Projetos */
+  section#projects {
+    padding: 50px;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 80px;
+  }
+  
+ #projects h2 {
+  font-size: 1.5em;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+  
+  .carousel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    
+  }
+
+  .carousel img:hover {
+    transform: scale(1.1);
+  }
+  
+  .carousel img {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    
+  }
+  
+  
+  /* Contato */
+  section#contact {
+    padding: 100px;
+    text-align: center;
+    margin-top: 165px;
+    margin-bottom: 130px;
+  }
+  
+  #contact h2 {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+  
+  #contact img {
+    width: 50px;
+    height: auto;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+ 
+  .git {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+  }
+
+  .gmail {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+    
+  }
+
+  html {
+    scroll-behavior: smooth;
+    transition: all 0.2s ease-in-out; /* altere o tempo e a animação conforme desejado */
+
+  }
+  
+  
